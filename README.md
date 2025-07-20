@@ -41,3 +41,8 @@ git commit -m "<message>"
 ```
 git push
 ```
+
+## minimum requirement for this project
+1. LLM Model ##groq, openai, gemini, claude, huggingface
+2. Embedding model ## openai, hf, gemini
+3. vectordatabase ##inmemory ##ondisk ##cloudbased
