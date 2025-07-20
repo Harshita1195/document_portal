@@ -46,3 +46,8 @@ git push
 1. LLM Model ##groq, openai, gemini, claude, huggingface
 2. Embedding model ## openai, hf, gemini
 3. vectordatabase ##inmemory ##ondisk ##cloudbased
+
+## to create project as a package
+```
+pip install -e .
+```
