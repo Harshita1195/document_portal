@@ -1,0 +1,50 @@
+2025-07-26 16:01:30,953 - ERROR - 
+            Exception occurred in file 'C:\Users\harsh\AppData\Local\Temp\ipykernel_376\3926502147.py' at line 21:
+            Message:division by zero
+            Traceback:
+            Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_376\3926502147.py", line 21, in <module>
+    a=1/0
+ZeroDivisionError: division by zero
+
+                    
+2025-07-26 16:04:20,258 - ERROR - 
+            Exception occurred in file 'C:\Users\harsh\AppData\Local\Temp\ipykernel_376\4176244871.py' at line 21:
+            Message:division by zero
+            Traceback:
+            Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_376\4176244871.py", line 21, in <module>
+    a=1/0
+ZeroDivisionError: division by zero
+
+                    
+2025-07-26 16:05:08,143 - ERROR - 
+            Exception occurred in file 'C:\Users\harsh\AppData\Local\Temp\ipykernel_376\4176244871.py' at line 21:
+            Message:division by zero
+            Traceback:
+            Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_376\4176244871.py", line 21, in <module>
+    a=1/0
+ZeroDivisionError: division by zero
+
+                    
+2025-07-26 16:07:42,257 - ERROR - 
+        Error in [C:\Users\harsh\AppData\Local\Temp\ipykernel_376\11436085.py] at line [22]
+        Message: division by zero
+        Traceback:
+        Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_376\11436085.py", line 22, in <module>
+    a = 1 / 0
+ZeroDivisionError: division by zero
+
+        
+2025-07-26 16:13:45,957 - ERROR - 
+        Error in [C:\Users\harsh\AppData\Local\Temp\ipykernel_376\11436085.py] at line [22]
+        Message: division by zero
+        Traceback:
+        Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_376\11436085.py", line 22, in <module>
+    a = 1 / 0
+ZeroDivisionError: division by zero
+
+        
