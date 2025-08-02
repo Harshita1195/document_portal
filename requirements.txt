@@ -9,4 +9,5 @@ langchain_google_genai
 structlog
 PyMuPDF
 structlog
+pandas
 -e .
