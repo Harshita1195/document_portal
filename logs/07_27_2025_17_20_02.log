@@ -1,2 +1,0 @@
-{"session_id": "test_ingestion_analysis", "session_path": "C:\\Users\\harsh\\OneDrive\\Desktop\\Harshita\\LLMOpsCourse\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-07-27T11:50:03.412780Z", "level": "info", "event": "PDFHandler initialized"}
-{"timestamp": "2025-07-27T11:50:03.413782Z", "level": "error", "event": "Error saving PDF: [Errno 2] No such file or directory: 'C:\\\\\\\\Complete_Content2\\\\\\\\llmops_batch\\\\\\\\document_portal\\\\\\\\data\\\\\\\\document_analysis\\\\\\\\NIPS-2017-attention-is-all-you-need-Paper.pdf'"}
