@@ -163,8 +163,7 @@ def test_document_ingestion_and_rag():
             "data\\multi_doc_chat\\sample.pdf",
             "data\\multi_doc_chat\\state_of_the_union.txt"
         ]
-    
-    
+        
         uploaded_files = []
         
         for file_path in test_files:
@@ -178,6 +177,7 @@ def test_document_ingestion_and_rag():
             sys.exit(1)
             
         ingestor = DocumentIngestor()
+        
         retriever = ingestor.ingest_files(uploaded_files)
         
         for f in uploaded_files:
@@ -186,16 +186,22 @@ def test_document_ingestion_and_rag():
         session_id = "test_multi_doc_chat"
         
         rag = ConversationalRAG(session_id=session_id, retriever=retriever)
-        question = "what is attention is all you need paper about?"
+        
+        question = "what is President Zelenskyy said in their speech in parliament?"
+        
         answer=rag.invoke(question)
+        
         print("\n Question:", question)
+        
         print("Answer:", answer)
+        
         if not uploaded_files:
             print("No valid files to upload.")
             sys.exit(1)
+            
     except Exception as e:
         print(f"Test failed: {str(e)}")
         sys.exit(1)
-
+        
 if __name__ == "__main__":
     test_document_ingestion_and_rag()

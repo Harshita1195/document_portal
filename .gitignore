@@ -3,3 +3,5 @@ env
 __pycache__/
 document_portal.egg-info
 logs/
+faiss_index/
+archive
